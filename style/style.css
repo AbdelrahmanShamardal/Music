@@ -40,17 +40,17 @@ section .container .keys {
   justify-content: center;
   align-items: center;
   top: 60%;
-  border-top: solid#4982B6 5px;
-  border-bottom: solid #4982b6 5px;
+  border-top: solid #000 2px; /*#BA0202*/
+  border-bottom: solid #000 2px;
   /* box-shadow: 50px 50px 50px rgba(f, f, f, 0.9); */
-  background-color: #49b67d;
+  background-color: #364765;
 
   /* border-bottom : solid #423C3D 5px ; */
 }
 
 section .container .key {
-  border: solid black 2.5px;
-  border-radius: 0px;
+  border: solid #fff 2px;
+  border-radius: 3px;
   margin: 0.5% 0.5%;
   text-transform: uppercase;
   letter-spacing: 2;
@@ -59,6 +59,7 @@ section .container .key {
   width: 9%;
   height: 35%;
   cursor: pointer;
+  color : white ;
 }
 
 section .container .key kbd {
@@ -70,6 +71,6 @@ section .container .key span {
   font-size: 8px;
   font-weight: 600;
   display: block;
-  color: #b64982;
+ 
   text-align: center;
 }
